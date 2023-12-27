@@ -1,0 +1,19 @@
+Client ID : G6AcK73IlYHwswp1zn6K
+
+Client Secret : FfJ_h68xPA
+
+지도
+id : 8ywx1584hq
+password : AjthyTMR12eQ9TopEJnQ6uwJStoBKoAoglwBHYhL
+
+카카오앱 키 해시
+	
+aVkgpgVcgK5j0SLA2X7nP9E40gY=
+
+네이버 어플 등록
+id : gf9dmgR2JgC3FqhsknON
+secret : efS22Ikum7
+
+네이버 지도
+id : w6jq1mh3e6
+secret : WnfRmI6eR0Ww7dzUXtYFLgXntxiYSBnq2gd6yKNC

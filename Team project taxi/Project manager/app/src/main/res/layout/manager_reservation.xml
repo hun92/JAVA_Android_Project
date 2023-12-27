@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/driverTv"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="등록"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/bt_application"
+        app:layout_constraintStart_toStartOf="@+id/bt_application"
+        app:layout_constraintTop_toBottomOf="@+id/bt_application" />
+
+    <EditText
+        android:id="@+id/driverEt3"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="비밀번호"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/driverTv3"
+        app:layout_constraintStart_toEndOf="@+id/driverTv3"
+        app:layout_constraintTop_toTopOf="@+id/driverTv3" />
+
+    <EditText
+        android:id="@+id/driverEt4"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="차량번호"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/driverTv4"
+        app:layout_constraintStart_toEndOf="@+id/driverTv4"
+        app:layout_constraintTop_toTopOf="@+id/driverTv4" />
+
+    <EditText
+        android:id="@+id/driverEt6"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="전화번호"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/driverTv6"
+        app:layout_constraintStart_toEndOf="@+id/driverTv6"
+        app:layout_constraintTop_toTopOf="@+id/driverTv6" />
+
+    <EditText
+        android:id="@+id/driverEt2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="아이디"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/driverTv2"
+        app:layout_constraintStart_toEndOf="@+id/driverTv2"
+        app:layout_constraintTop_toTopOf="@+id/driverTv2" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="414dp"
+        android:layout_height="75dp"
+        android:background="#BC86CA37"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="308dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo2" />
+
+    <ImageView
+        android:id="@+id/bt_application"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:onClick="driverRegisterBtn"
+        app:layout_constraintEnd_toEndOf="@+id/driverEt6"
+        app:layout_constraintStart_toStartOf="@+id/driverTv6"
+        app:layout_constraintTop_toBottomOf="@+id/driverEt6"
+        app:srcCompat="@drawable/check" />
+
+    <TextView
+        android:id="@+id/driverTv1"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="156dp"
+        android:gravity="center|left"
+        android:text="이름 :"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/driverTv2"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center|left"
+        android:text="아이디 :"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/driverTv1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/driverTv1"
+        app:layout_constraintTop_toBottomOf="@+id/driverTv1" />
+
+    <TextView
+        android:id="@+id/driverTv3"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center|left"
+        android:text="비밀번호 :"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/driverTv2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/driverTv2"
+        app:layout_constraintTop_toBottomOf="@+id/driverTv2" />
+
+    <TextView
+        android:id="@+id/driverTv6"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center|left"
+        android:text="전화번호 :"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/driverTv5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/driverTv5"
+        app:layout_constraintTop_toBottomOf="@+id/driverTv5" />
+
+    <TextView
+        android:id="@+id/driverTv4"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center|left"
+        android:text="차량번호 :"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/driverTv3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/driverTv3"
+        app:layout_constraintTop_toBottomOf="@+id/driverTv3" />
+
+    <TextView
+        android:id="@+id/driverTv5"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center|left"
+        android:text="면허번호 :"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/driverTv4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/driverTv4"
+        app:layout_constraintTop_toBottomOf="@+id/driverTv4" />
+
+    <EditText
+        android:id="@+id/driverEt5"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="면허번호"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/driverTv5"
+        app:layout_constraintStart_toEndOf="@+id/driverTv5"
+        app:layout_constraintTop_toTopOf="@+id/driverTv5" />
+
+    <EditText
+        android:id="@+id/driverEt1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="이름"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/driverTv1"
+        app:layout_constraintStart_toEndOf="@+id/driverTv1"
+        app:layout_constraintTop_toTopOf="@+id/driverTv1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="202dp"
+        android:text="Driver 등록"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
